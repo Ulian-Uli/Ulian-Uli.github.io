@@ -1,5 +1,60 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>冥星之理</title><link>https://Ulian-Uli.github.io</link><description>-前往宇宙尽头吧，我会拼起最后一片宙影-</description><copyright>冥星之理</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/228350549?v=4</url><title>avatar</title><link>https://Ulian-Uli.github.io</link></image><lastBuildDate>Tue, 26 Aug 2025 11:32:11 +0000</lastBuildDate><managingEditor>冥星之理</managingEditor><ttl>60</ttl><webMaster>冥星之理</webMaster><item><title>肿瘤学专硕规培轮转计划</title><link>https://Ulian-Uli.github.io/post/zhong-liu-xue-zhuan-shuo-gui-pei-lun-zhuan-ji-hua.html</link><description># 📅 2025年 
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>冥星之理</title><link>https://Ulian-Uli.github.io</link><description>-前往宇宙尽头吧，我会拼起最后一片宙影-</description><copyright>冥星之理</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/228350549?v=4</url><title>avatar</title><link>https://Ulian-Uli.github.io</link></image><lastBuildDate>Sun, 21 Sep 2025 05:29:44 +0000</lastBuildDate><managingEditor>冥星之理</managingEditor><ttl>60</ttl><webMaster>冥星之理</webMaster><item><title>【文献笔记】基于生物信息学筛选乳腺癌差异表达基因UBE2C及其功能验证</title><link>https://Ulian-Uli.github.io/post/%E3%80%90-wen-xian-bi-ji-%E3%80%91-ji-yu-sheng-wu-xin-xi-xue-shai-xuan-ru-xian-ai-cha-yi-biao-da-ji-yin-UBE2C-ji-qi-gong-neng-yan-zheng.html</link><description>&lt;h1&gt;🧬 基本概念&lt;/h1&gt;
+&lt;h2&gt;1️⃣ 高通量测序&lt;/h2&gt;
+&lt;p&gt;一种能同时对数百万条 DNA 或 RNA 分子进行快速测序的技术，可一次性获得海量基因序列信息&lt;br&gt;
+就像一台&lt;strong&gt;高速扫描仪&lt;/strong&gt;，把样本里所有的基因蓝图一次性读取出来，生成庞大的“原始数据报告”&lt;/p&gt;
+&lt;h2&gt;2️⃣ 生物信息学（生信分析）&lt;/h2&gt;
+&lt;p&gt;利用&lt;strong&gt;计算机+统计学&lt;/strong&gt;来管理、分析和解读生物学数据（尤其是高通量测序结果）&lt;br&gt;
+好比一位数据分析师，把“原始报告”整理计算，最终告诉我们&lt;strong&gt;哪些基因最关键、意味着什么&lt;/strong&gt;&lt;/p&gt;
+&lt;h2&gt;3️⃣ 差异表达基因（DEGs）&lt;/h2&gt;
+&lt;p&gt;在不同条件（如&lt;strong&gt;癌组织 vs 正常组织&lt;/strong&gt;）下，&lt;strong&gt;表达量存在显著统计学差异&lt;/strong&gt;的基因&lt;br&gt;
+常用筛选标准：&lt;code inline=''&gt;adj.P.value &amp;lt; 0.05&lt;/code&gt; 且 &lt;code inline=''&gt;|log2FC| &amp;gt; 2&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;adj.P.value：校正后的 P 值 &amp;lt; 0.05&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;|log2FC| &amp;gt; 2：表达量变化超过 &lt;strong&gt;4 倍&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;4️⃣ GO 分析&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Gene Ontology&lt;/strong&gt;：国际标准的基因功能分类体系，从三个维度描述基因的功能：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;BP&lt;/strong&gt;（Biological Process）：生物学过程，如“细胞分裂”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;CC&lt;/strong&gt;（Cellular Component）：细胞内的具体位置&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;MF&lt;/strong&gt;（Molecular Function）：分子水平的具体活性&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;本研究中发现：这些基因显著富集于&lt;strong&gt;有丝分裂细胞周期&lt;/strong&gt;、脂质颗粒和蛋白质二聚化等过程——这与癌细胞的高增殖、高代谢特征高度一致&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2&gt;5️⃣ KEGG 通路分析&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Kyoto Encyclopedia of Genes and Genomes&lt;/strong&gt;&lt;br&gt;
+用于解析基因产物之间的&lt;strong&gt;相互作用网络&lt;/strong&gt;并映射到具体信号通路&lt;br&gt;
+本研究中关键结果示例：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PPAR 通路&lt;/strong&gt;：调节细胞脂质/葡萄糖代谢，提示乳腺癌存在&lt;strong&gt;代谢重编程&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AMPK 通路&lt;/strong&gt;：细胞能量感受器；癌细胞可能破坏了这种“能量刹车”&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;ECM 受体相互作用&lt;/strong&gt;：与&lt;strong&gt;肿瘤侵袭转移&lt;/strong&gt;密切相关&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;6️⃣ 蛋白互作网络（PPI）&amp;amp; Degree 值&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;PPI：用网络图展示蛋白质的相互作用，一个&lt;strong&gt;节点&lt;/strong&gt;代表一个蛋白，一条&lt;strong&gt;连线&lt;/strong&gt;代表已知或预测的相互作用&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Degree 值：节点直接连接的数量。</description><guid isPermaLink="true">https://Ulian-Uli.github.io/post/%E3%80%90-wen-xian-bi-ji-%E3%80%91-ji-yu-sheng-wu-xin-xi-xue-shai-xuan-ru-xian-ai-cha-yi-biao-da-ji-yin-UBE2C-ji-qi-gong-neng-yan-zheng.html</guid><pubDate>Sun, 21 Sep 2025 05:29:07 +0000</pubDate></item><item><title>肿瘤学专硕规培轮转计划</title><link>https://Ulian-Uli.github.io/post/zhong-liu-xue-zhuan-shuo-gui-pei-lun-zhuan-ji-hua.html</link><description># 📅 2025年 
 
 | 月份 | 科室 |
 | :--- | :--- |
